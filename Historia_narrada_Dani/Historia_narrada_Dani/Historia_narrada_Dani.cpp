@@ -110,6 +110,7 @@ int main()
         std::cout << "Quieres volver a empezar el juego?\n";
         std::cout << "Si    No";
         std::cin >> eleccion;
+        std::cout << std::endl;
         system("CLS");
     } while (eleccion);
 }
